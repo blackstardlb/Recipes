@@ -39,7 +39,7 @@ public class RecipeController {
     }
 
     /**
-     * {@code GET  /recipe/:id} : Get a recipe.
+     * {@code GET  /recipes/:id} : Get a recipe.
      *
      * @param id the id of recipe to retrieve.
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and with body the recipe.
@@ -51,7 +51,7 @@ public class RecipeController {
     }
 
     /**
-     * {@code POST  /recipe} : Create a new recipe.
+     * {@code POST  /recipes} : Create a new recipe.
      * @param recipeDTO the recipeDTO to create.
      * @return the {@link ResponseEntity} with status {@code 201 (Created)} and with body the new recipeDTO.
      */
@@ -62,7 +62,7 @@ public class RecipeController {
     }
 
     /**
-     * {@code PUT  /recipe/:id} : Updates an existing recipe.
+     * {@code PUT  /recipes/:id} : Updates an existing recipe.
      * @param id the id of the recipe to update.
      * @param recipeDTO the new recipe
      * @return the {@link ResponseEntity} with status {@code 202 (ACCEPTED)}.
@@ -85,7 +85,7 @@ public class RecipeController {
     }
 
     /**
-     * {@code GET  /orders?:filters} : get all recipes that match the given filters.
+     * {@code GET  /recipes?:filters} : get all recipes that match the given filters.
      * @param filters the filters to apply to the request
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the list filtered of recipes in body or {@code 400(BAD_REQUEST)} if a bad filter was given.
      */
