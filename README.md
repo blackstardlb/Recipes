@@ -59,7 +59,7 @@ BODY EXAMPLE:
 ```
 
 ## UPDATE ONE
-POST http://localhost:8080/recipes/1   
+PUT http://localhost:8080/recipes/1   
 BODY EXAMPLE:
 ```
 {
